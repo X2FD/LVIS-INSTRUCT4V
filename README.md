@@ -2,7 +2,7 @@
 
 ## Introduction
 
-We introduce a fine-grained visual instruction dataset, LVIS-INSTRUCT4V-220K, which contains *220K* visually aligned and context-aware instructions produced by prompting the powerful GPT-4V with images from LVIS. 
+We introduce a fine-grained visual instruction dataset, LVIS-INSTRUCT4V, which contains *220K* visually aligned and context-aware instructions produced by prompting the powerful GPT-4V with images from LVIS. Please refer to the [Arxiv paper](https://arxiv.org/abs/2311.07574) for more details.
 
 ## Usage
 
@@ -18,6 +18,20 @@ Our data is available at [LVIS-INSTRUCT4V](https://huggingface.co/datasets/X2FD/
  |  LLaVA-1.5 | LVIS-Instrcut4V + LLaVA-Instruct | 7B | full_ft-1e | [X2FD/LVIS-Instruct4v-LLaVA-7b](https://huggingface.co/X2FD/LVIS-Instruct4v-LLaVA-7b)  | 79.6 |  62.6 | 51.8 | 70.1 | 58.7 | 86.0 | 1528.2 | 66.2 | 66.4 | 60.6 | 67.0 | 31.5  | 
  |  LLaVA-1.5 | LVIS-Instrcut4V | 13B | full_ft-1e | TODO | 80.1 | 63.8 | 51.4 | 73.0 | 62.1 |  85.3 | 1572.0 | 67.8 | 68.2 | 62.5 | 76.7 | 40.2 |
  |  LLaVA-1.5 | LVIS-Instrcut4V + LLaVA-Instruct | 13B | full_ft-1e | TODO | 80.7 | 63.6 |57.2 | 74.2 | 62.5 | 86.0 | 1574.9 | 68.0 | 67.4 | 61.6 | 71.3 | 37.4
+
+## Reference
+
+If you find our work useful for your research or applications, please cite using this BibTeX:
+
+```
+@article{wang2023instruct4v,
+  title={To See is to Believe: Prompting GPT-4V for Better Visual Instruction Tuning},
+  author={Wang, Junke and Meng, Lingchen and Weng, Zejia and He, Bo and Wu, Zuxuan and Jiang, Yu-Gang},
+  journal={arXiv preprint arXiv:2311.07574},
+  year={2023}
+}
+```
+
 
 ## Acknowledgement
 
