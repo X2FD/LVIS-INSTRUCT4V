@@ -2,7 +2,7 @@
 
 ## Introduction
 
-We introduce a fine-grained visual instruction dataset, LVIS-INSTRUCT4V, which contains *220K* visually aligned and context-aware instructions produced by prompting the powerful GPT-4V with images from LVIS. Please refer to the [Arxiv paper](https://arxiv.org/abs/2311.07574) for more details.
+We introduce a fine-grained visual instruction dataset, LVIS-INSTRUCT4V, which contains *220K* visually aligned and context-aware instructions produced by prompting the powerful GPT-4V with images from LVIS. Please refer to the [arxiv paper](https://arxiv.org/abs/2311.07574) for more details.
 
 ## Usage
 
