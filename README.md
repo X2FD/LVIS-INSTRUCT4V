@@ -19,7 +19,7 @@ Our data are available at [LVIS-INSTRUCT4V](https://huggingface.co/datasets/X2FD
  |  LLaVA-1.5[^1] | LVIS-Instrcut4V | 13B | full_ft-1e | [LVIS-Instruct4v-13b](https://huggingface.co/X2FD/LVIS-Instruct4v-13b) | 80.1 | 63.8 | 51.4 | 73.0 | 62.1 |  85.3 | 1572.0 | 67.8 | 68.2 | 62.5 | 76.7 | 40.2 |
  |  LLaVA-1.5 | LVIS-Instrcut4V + LLaVA-Instruct | 13B | full_ft-1e | [LVIS-Instruct4v-13b](https://huggingface.co/X2FD/LVIS-Instruct4v-13b) | 80.7 | 63.6 |57.2 | 74.2 | 62.5 | 86.0 | 1574.9 | 68.0 | 67.4 | 61.6 | 71.3 | 37.4
 
-[^1]: We find TextQA is sensitive to the beam number, and for 13B models, we use beam = 3.
+[^1]: We find TextQA is sensitive to the beam number, and for 13B models, we use beam = 3 on TextQA.
 
 ## Reference
 
