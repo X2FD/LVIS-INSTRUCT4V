@@ -8,7 +8,7 @@ We introduce a fine-grained visual instruction dataset, LVIS-INSTRUCT4V, which c
 
 Please follow [LLaVA](https://github.com/haotian-liu/LLaVA) to set up the code. 
 
-Our data is available at [LVIS-INSTRUCT4V](https://huggingface.co/datasets/X2FD/LVIS-Instruct4V)
+Our data are available at [LVIS-INSTRUCT4V](https://huggingface.co/datasets/X2FD/LVIS-Instruct4V)
 
 
 ## Model Zoo
